@@ -1,0 +1,32 @@
+Additional Content Doc:
+
+Once you have download the neccessary Game Folder to start the Unity Project, you can proceed
+to add additional content as follows. Open the project via Unity and it should automatically set all in-game folders 
+where they should be.
+
+-------------------------------------------------
+*How to Add Additional Sprites to Waste Content
+-------------------------------------------------
+
+For the Trash/Recycle/Compost Items, adding additional sprites is fairly easy.
+Make sure the item you are adding is a .png file for transperancy reasons.
+Proceed to add your Transparent .png sprite into the "Sprites" Folder within Unity.
+Once added, refer to the Inspector Tab and alter the following; Filter Mode: Bilinear, Max Size: 2048, Format: Compressed
+You can then drag and drop the sprite within the Scene Tab and tweak it as much as you like.
+
+For the code to work, please Tag your newly added item accordingly.
+There are already Specific Tags you can use which are TrashTag, RecycleTag, and CompostTag.
+You can always refer to the Prefabs Folder to look up existing sprites in the game and copying the neccessary tweaks
+already implemented.
+
+-------------------------------------------------
+*How to Add Additional Sprites to Music/soundeffects
+-------------------------------------------------
+
+This folder accepts .mp3 files and all you have to do is drag and drop and .mp3 files you have
+into the Game_music folder.
+
+You can then Create an empty object within your scence and attach the music/soundeffect you have added so you
+can call from your code the specified music file you added at anytime.
+
+
